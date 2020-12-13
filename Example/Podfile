@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DSHFirstPrintPod_Example' do
+  pod 'DSHFirstPrintPod', :path => '../'
+
+  target 'DSHFirstPrintPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
