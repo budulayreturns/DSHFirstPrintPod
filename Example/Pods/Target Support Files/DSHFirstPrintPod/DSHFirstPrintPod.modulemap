@@ -1,0 +1,6 @@
+framework module DSHFirstPrintPod {
+  umbrella header "DSHFirstPrintPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

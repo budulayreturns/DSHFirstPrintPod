@@ -1,0 +1,24 @@
+PODS:
+  - DSHFirstPrintPod (0.0.1):
+    - DSHSecondPrintPod
+  - DSHSecondPrintPod (0.0.1)
+
+DEPENDENCIES:
+  - DSHFirstPrintPod (from `../`)
+  - DSHSecondPrintPod
+
+SPEC REPOS:
+  "git@github.com:budulayreturns/DSHSecondPrint-Spec.git":
+    - DSHSecondPrintPod
+
+EXTERNAL SOURCES:
+  DSHFirstPrintPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSHFirstPrintPod: 64c1e8efcc1786a25b8375115e659a9eb0ba16a2
+  DSHSecondPrintPod: a2c416a85be74bb6937d92d587affd8d2645f153
+
+PODFILE CHECKSUM: 2996cdb98d8f066a7037aaf6cf12fdad03d7d4ef
+
+COCOAPODS: 1.10.0
